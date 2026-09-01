@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Muzaffar Khazi — Payment QR Designer, AI Prompt Engineer and Digital Creator.">
+<title>Muzaffar Khazi | Digital Creator</title>
+<style>
+:root{
+  --bg:#070812;--card:#101321;--card2:#15192b;--text:#f6f7fb;--muted:#a8aec2;
+  --accent:#7c5cff;--accent2:#00d4ff;--border:rgba(255,255,255,.1);
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:Inter,system-ui,-apple-system,Segoe UI,Arial,sans-serif;background:
+radial-gradient(circle at 10% 10%,rgba(124,92,255,.18),transparent 28%),
+radial-gradient(circle at 90% 20%,rgba(0,212,255,.12),transparent 25%),var(--bg);
+color:var(--text);line-height:1.6}
+a{text-decoration:none;color:inherit}
+.container{width:min(1120px,92%);margin:auto}
+nav{position:sticky;top:0;z-index:20;background:rgba(7,8,18,.78);backdrop-filter:blur(18px);border-bottom:1px solid var(--border)}
+.navin{height:72px;display:flex;align-items:center;justify-content:space-between}
+.logo{font-weight:800;font-size:1.15rem}.logo span{color:var(--accent2)}
+.links{display:flex;gap:24px;color:var(--muted);font-size:.95rem}
+.links a:hover{color:white}
+.btn{display:inline-flex;align-items:center;justify-content:center;padding:12px 18px;border-radius:12px;background:linear-gradient(135deg,var(--accent),#5b8cff);font-weight:700;border:1px solid rgba(255,255,255,.12);transition:.2s}
+.btn:hover{transform:translateY(-2px);filter:brightness(1.08)}
+.btn.alt{background:transparent}
+.hero{min-height:650px;display:grid;grid-template-columns:1.15fr .85fr;gap:50px;align-items:center;padding:80px 0}
+.badge{display:inline-block;padding:7px 12px;border:1px solid var(--border);border-radius:999px;color:#cbd0e1;background:rgba(255,255,255,.04);font-size:.85rem;margin-bottom:20px}
+h1{font-size:clamp(3rem,7vw,5.8rem);line-height:.98;letter-spacing:-.055em}
+.gradient{background:linear-gradient(90deg,#fff,var(--accent2),#9a7cff);-webkit-background-clip:text;background-clip:text;color:transparent}
+.hero p{color:var(--muted);font-size:1.12rem;max-width:650px;margin:24px 0 30px}
+.actions{display:flex;gap:12px;flex-wrap:wrap}
+.profile-wrap{position:relative;display:flex;justify-content:center}
+.profile{width:min(360px,80vw);aspect-ratio:1;border-radius:30px;object-fit:cover;border:1px solid var(--border);box-shadow:0 30px 90px rgba(0,0,0,.5)}
+.glow{position:absolute;width:75%;height:75%;border-radius:50%;background:linear-gradient(135deg,var(--accent),var(--accent2));filter:blur(70px);opacity:.22;z-index:-1}
+section{padding:90px 0}
+.section-head{margin-bottom:38px}.eyebrow{color:var(--accent2);font-weight:800;letter-spacing:.12em;text-transform:uppercase;font-size:.78rem}
+h2{font-size:clamp(2rem,4vw,3.3rem);line-height:1.1;margin-top:8px}
+.sub{color:var(--muted);max-width:680px;margin-top:12px}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.card{background:linear-gradient(145deg,rgba(255,255,255,.055),rgba(255,255,255,.02));border:1px solid var(--border);border-radius:20px;padding:26px;box-shadow:0 15px 40px rgba(0,0,0,.18)}
+.card h3{margin:12px 0 8px}.card p{color:var(--muted);font-size:.95rem}
+.icon{font-size:2rem}
+.about{display:grid;grid-template-columns:.9fr 1.1fr;gap:35px;align-items:center}
+.about-img{width:100%;max-height:500px;object-fit:cover;border-radius:24px;border:1px solid var(--border)}
+.list{display:grid;gap:14px;margin-top:20px}.list div{padding:15px 17px;background:rgba(255,255,255,.035);border:1px solid var(--border);border-radius:14px}
+.gallery{display:grid;grid-template-columns:repeat(2,1fr);gap:18px}.gallery img{width:100%;height:320px;object-fit:cover;border-radius:20px;border:1px solid var(--border)}
+.cta{background:linear-gradient(135deg,rgba(124,92,255,.18),rgba(0,212,255,.08));border:1px solid var(--border);border-radius:28px;padding:50px;text-align:center}
+.contact{display:flex;justify-content:center;gap:14px;flex-wrap:wrap;margin-top:25px}
+footer{border-top:1px solid var(--border);padding:28px 0;color:var(--muted);text-align:center;font-size:.9rem}
+@media(max-width:800px){
+ .links{display:none}.hero,.about{grid-template-columns:1fr}.hero{padding:55px 0}.profile-wrap{order:-1}
+ .grid{grid-template-columns:1fr}.gallery{grid-template-columns:1fr}
+ .gallery img{height:280px}.cta{padding:32px 20px}
+}
+</style>
+</head>
+<body>
+<nav>
+  <div class="container navin">
+    <a class="logo" href="#home">MUZAFFAR<span>.</span></a>
+    <div class="links">
+      <a href="#about">About</a><a href="#services">Services</a><a href="#work">Work</a><a href="#contact">Contact</a>
+    </div>
+    <a class="btn" href="https://t.me/Contactmuzaffarbot" target="_blank" rel="noopener">Contact Me</a>
+  </div>
+</nav>
+
+<main id="home">
+<section class="container hero">
+  <div>
+    <span class="badge">Digital Creator • AI • Design</span>
+    <h1>Hi, I'm <span class="gradient">Muzaffar Khazi.</span></h1>
+    <p>I create modern digital experiences with a focus on <b>payment QR design</b>, creative visuals, website source code, and <b>AI prompt engineering</b>.</p>
+    <div class="actions">
+      <a class="btn" href="#services">Explore My Work</a>
+      <a class="btn alt" href="https://t.me/Contactmuzaffarbot" target="_blank" rel="noopener">Telegram ↗</a>
+    </div>
+  </div>
+  <div class="profile-wrap">
+    <div class="glow"></div>
+    <img class="profile" src="https://raw.githubusercontent.com/Muzaffarkhazi07/upi/main/IMG_20260623_125012.jpg" alt="Muzaffar Khazi">
+  </div>
+</section>
+
+<section id="about">
+<div class="container about">
+  <img class="about-img" src="https://raw.githubusercontent.com/Muzaffarkhazi07/upi/main/47199.jpeg" alt="Muzaffar Khazi">
+  <div>
+    <div class="section-head"><span class="eyebrow">About Me</span><h2>Creative ideas. Clean execution.</h2>
+    <p class="sub">I'm Muzaffar Khazi, a digital creator interested in design, AI, automation and modern web experiences.</p></div>
+    <div class="list">
+      <div>⚡ <b>Fast & Modern</b> — Lightweight, responsive and clean interfaces.</div>
+      <div>🎨 <b>QR Design</b> — Creative payment QR concepts and visual layouts.</div>
+      <div>🤖 <b>AI Prompt Engineering</b> — Structured prompts for creative and productivity workflows.</div>
+      <div>💻 <b>Web Source Code</b> — Simple, polished front-end projects and landing pages.</div>
+    </div>
+  </div>
+</div>
+</section>
+
+<section id="services">
+<div class="container">
+<div class="section-head"><span class="eyebrow">What I Do</span><h2>My Services</h2><p class="sub">A focused set of digital skills for creative projects and online presence.</p></div>
+<div class="grid">
+  <article class="card"><div class="icon">💳</div><h3>Payment QR Designer</h3><p>Clean and attractive QR layouts designed for digital payment presentations and personal projects.</p></article>
+  <article class="card"><div class="icon">🤖</div><h3>AI Prompt Engineer</h3><p>Creative, structured prompts designed to make AI workflows clearer and more useful.</p></article>
+  <article class="card"><div class="icon">🌐</div><h3>Website Source Code</h3><p>Responsive HTML, CSS and JavaScript interfaces with a strong focus on usability and performance.</p></article>
+  <article class="card"><div class="icon">✨</div><h3>Creative Design</h3><p>Modern visual concepts for profiles, banners, digital cards and online branding.</p></article>
+  <article class="card"><div class="icon">⚙️</div><h3>Digital Solutions</h3><p>Practical front-end ideas and lightweight tools built around simple user experiences.</p></article>
+  <article class="card"><div class="icon">🚀</div><h3>Fast Landing Pages</h3><p>Single-page websites that are mobile-friendly, visually polished and easy to customize.</p></article>
+</div>
+</div>
+</section>
+
+<section id="work">
+<div class="container">
+<div class="section-head"><span class="eyebrow">My Work</span><h2>Visual Gallery</h2><p class="sub">A simple showcase using the images you provided.</p></div>
+<div class="gallery">
+  <img src="https://raw.githubusercontent.com/Muzaffarkhazi07/upi/main/IMG_20260623_125012.jpg" alt="Muzaffar Khazi work image">
+  <img src="https://raw.githubusercontent.com/Muzaffarkhazi07/upi/main/47199.jpeg" alt="Muzaffar Khazi creative image">
+</div>
+</div>
+</section>
+
+<section>
+<div class="container">
+<div class="cta">
+  <span class="eyebrow">Let's Connect</span>
+  <h2>Have a project or idea?</h2>
+  <p class="sub" style="margin:12px auto 0">Contact me through Telegram or Instagram and let's talk about your next digital project.</p>
+  <div class="contact">
+    <a class="btn" href="https://t.me/Contactmuzaffarbot" target="_blank" rel="noopener">Telegram @Contactmuzaffarbot</a>
+    <a class="btn alt" href="https://instagram.com/muzaffar_live07" target="_blank" rel="noopener">Instagram @muzaffar_live07</a>
+  </div>
+</div>
+</div>
+</section>
+
+<section id="contact">
+<div class="container" style="text-align:center">
+<span class="eyebrow">Contact</span><h2>Muzaffar Khazi</h2>
+<p class="sub" style="margin:12px auto">Payment QR Designer • AI Prompt Engineer • Digital Creator</p>
+<div class="contact">
+<a class="btn" href="https://t.me/Contactmuzaffarbot" target="_blank" rel="noopener">Message on Telegram</a>
+<a class="btn alt" href="https://instagram.com/muzaffar_live07" target="_blank" rel="noopener">Follow on Instagram</a>
+</div>
+</div>
+</section>
+</main>
+
+<footer>© <span id="year"></span> Muzaffar Khazi.</footer>
+<script>document.getElementById('year').textContent=new Date().getFullYear();</script>
+</body>
+</html>
